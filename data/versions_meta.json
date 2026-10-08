@@ -1,0 +1,47 @@
+{
+  "current_active_version_id": "v0_original",
+  "versions": {
+    "v0_original": {
+      "version_id": "v0_original",
+      "name": "Original Dataset (AP Synthetic)",
+      "file_name": "indoor_air_quality_raw.csv",
+      "raw_path": "D:\\3RD_YEAR\\Projects\\DAV\\data\\raw\\indoor_air_quality_raw.csv",
+      "processed_path": "D:\\3RD_YEAR\\Projects\\DAV\\data\\processed\\indoor_air_quality_processed.csv",
+      "created_at": "2026-10-02 20:13:21",
+      "raw_rows": 5278,
+      "processed_rows": 5200,
+      "columns": 16,
+      "raw_missing": 1100,
+      "status": "Processed",
+      "is_original": true
+    },
+    "v_20261002_201711": {
+      "version_id": "v_20261002_201711",
+      "name": "Uploaded Dataset (indoor_air_quality_raw.csv)",
+      "file_name": "indoor_air_quality_raw.csv",
+      "raw_path": "D:\\3RD_YEAR\\Projects\\DAV\\data\\uploads\\uploaded_raw_20261002_201711.csv",
+      "processed_path": "D:\\3RD_YEAR\\Projects\\DAV\\data\\uploads\\uploaded_processed_20261002_201711.csv",
+      "created_at": "2026-10-02 20:17:11",
+      "raw_rows": 5278,
+      "processed_rows": 5200,
+      "columns": 16,
+      "raw_missing": 1114,
+      "status": "Processed Successfully",
+      "is_original": false
+    },
+    "v_20261002_202336": {
+      "version_id": "v_20261002_202336",
+      "name": "Uploaded Dataset (indoor_air_quality_cleaned.csv)",
+      "file_name": "indoor_air_quality_cleaned.csv",
+      "raw_path": "D:\\3RD_YEAR\\Projects\\DAV\\data\\uploads\\uploaded_raw_20261002_202336.csv",
+      "processed_path": "D:\\3RD_YEAR\\Projects\\DAV\\data\\uploads\\uploaded_processed_20261002_202336.csv",
+      "created_at": "2026-10-02 20:23:37",
+      "raw_rows": 5200,
+      "processed_rows": 5200,
+      "columns": 24,
+      "raw_missing": 0,
+      "status": "Processed Successfully",
+      "is_original": false
+    }
+  }
+}
