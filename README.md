@@ -88,14 +88,22 @@ python scripts/create_notebook.py
 
 ## 6. Running the Full-Stack Web Application
 
-### Option A: Start FastAPI Backend Server
-In Terminal 1 (from root directory):
+### Option A: Quick Start (Single Command via Batch File)
+Double-click `run.bat` or run from terminal:
+```cmd
+run.bat
+```
+This automatically launches both the FastAPI backend and React Vite frontend in separate terminal windows.
+
+### Option B: Manual Start (Separate Terminals)
+
+#### Terminal 1: Start FastAPI Backend Server
 ```bash
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 API Documentation available at: `http://127.0.0.1:8000/docs`
 
-### Option B: Start Vite Frontend Development Server
+#### Terminal 2: Start Vite Frontend Server
 In Terminal 2 (from root directory):
 ```bash
 cd frontend
